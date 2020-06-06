@@ -4,8 +4,6 @@ Type "copyright", "credits" or "license()" for more information.
 enter the base:23
 >>> height=float(input("enter the height"))
 enter the height12
->>> area of cylinder=base*height
-SyntaxError: invalid syntax
 >>> area=base*height
 >>> print(area)
 276.0
