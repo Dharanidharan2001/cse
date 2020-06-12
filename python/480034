@@ -1,0 +1,21 @@
+class Error(Exception):
+	pass
+class ToosmallError(Error):
+	pass
+class ToolargeError(Error):
+	pass
+num=10
+while True:
+	try:
+		ch=int(input("enter the no"))
+		if ch<10:
+			raise ToosmallError
+		elif ch>10:
+			raise ToolargeError
+		break
+	except ToosmallError:
+		print("you entered a small no,pls try again")
+	except ToolargeError:
+		print("you have entered a large no,pls try again")
+print("you have entered the correct no")
+		
