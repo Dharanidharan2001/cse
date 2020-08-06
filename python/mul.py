@@ -1,5 +1,4 @@
-def mul_table(n,i=1):
-    print(n*i)
-    if i !=20:
-        mul_table(n,i+1)
-mul_table(8)
+def mul_table(n):
+    for i in range(1,11):
+        print(i*n)
+mul_table(2)
