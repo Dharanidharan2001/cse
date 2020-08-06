@@ -11,6 +11,16 @@ def count(arr):
     print(count0)
     print(count1)
 
+"""
+Access 1D arr:
+for i in range(0, len(arr)):
+    print(arr[i])
+
+2D array:
+arr[0][0]
+arr[0][1]
+"""
+
 input=[[1,0,0,1],[0,1,0,1],[1,1,0,1]]
 count(input)
 # input2=[[1,0,1,1],[0,1,0,0],[1,1,0,1]]
