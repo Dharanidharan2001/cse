@@ -23,7 +23,7 @@ def set_zeroes(arr):
             if arr[i][j] == 0:
                 row_set.add(i)
                 col_set.add(j)
-    print(row_set)
+    print(row_set)`-`
     print(col_set)
 
     for i in range(0, R):
