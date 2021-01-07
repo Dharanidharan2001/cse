@@ -1,5 +1,6 @@
 def append_bits(x,l):
     return[x + element for element in l]
+
 def genr_bits(n):
     if n==0:
         return[]
