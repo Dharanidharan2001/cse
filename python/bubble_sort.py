@@ -5,6 +5,8 @@ def bubble(items):
             if items[j] > items[j+1]:
                 items[j],items[j+1]=items[j+1],items[j]
                 already_sorted= False
+        if already_sorted:
+            break
     return items
 
 items=[2,1,4,3,6,5]
